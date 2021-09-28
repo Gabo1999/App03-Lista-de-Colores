@@ -16,9 +16,10 @@ struct ListView: View {
         NavigationView {
             List {
                 TextField("Nombre Color", text: $searchText)
-                    .font(.title2)
+                    .font(.PTSerif(style: "Regular", size: 24))
                     .foregroundColor(.black)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .accentColor(.green)
                 Section(header:
                             Text("Flat UI")
                             .modifier(TitleModifier())
@@ -82,17 +83,19 @@ struct ListView: View {
                         .listRowBackground(colour.colour)
                     }
                 }
-                
             }
             .accentColor(.black)
-            .listStyle(SidebarListStyle())
+            .listStyle(InsetGroupedListStyle())
             .navigationBarTitle("Colores", displayMode: .inline)
-            .navigationBarColor(UIColor(.black), UIColor(.white))
+            .navigationBarColor(UIColor(.green), UIColor(.white))
             .toolbar(content: {
                 ToolbarItem(placement: .principal, content: {
-                    Text("Colores")
-                        .font(.title)
-                        .foregroundColor(.white)
+                    HStack {
+                        Image(systemName: "paintbrush.fill")
+                        Text("Colores")
+                            .modifier(TitleModifier())
+                            .foregroundColor(.white)
+                    }
                 })
             })
         }

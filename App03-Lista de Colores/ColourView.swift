@@ -16,21 +16,27 @@ struct ColourView: View {
         ZStack {
             colour.colour
             VStack {
-                Text(colour.name)
-                    .font(.largeTitle)
-                    .foregroundColor(colour.dark ? .white : .black)
-                Text(pallete)
-                    .font(.largeTitle)
-                    .foregroundColor(colour.dark ? .white : .black)
+                NavigationLink(
+                    destination: ColourDetailView(colour: colour),
+                    label: {
+                        HStack {
+                            Text(colour.name)
+                                .font(.PTSerif(style: "Bold", size: 24))
+                                .foregroundColor(colour.dark ? .white : .black)
+                            Text(pallete)
+                                .font(.PTSerif(style: "Bold", size: 24))
+                                .foregroundColor(colour.dark ? .white : .black)
+                        }
+                })
             }
         }
         .edgesIgnoringSafeArea(.bottom)
             .navigationBarTitle("Color", displayMode: .inline)
-            .navigationBarColor(UIColor(.black), UIColor(.white))
+        .navigationBarColor(UIColor(colour.colour), UIColor(.white))
         .toolbar(content: {
             ToolbarItem(placement: .principal, content: {
                 Text(colour.name)
-                    .font(.title)
+                    .modifier(TitleModifier())
                     .foregroundColor(.white)
             })
         })
