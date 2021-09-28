@@ -23,6 +23,7 @@ struct ColourDetailView: View {
                     .foregroundColor(.black)
             }
         }
+        .edgesIgnoringSafeArea(.bottom)
         .navigationBarTitle("Detalle Color", displayMode: .inline)
         .navigationBarColor(UIColor(.green), UIColor(.white))
         .toolbar(content: {
