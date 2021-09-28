@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		87344A852702B75000A4F456 /* App03_Lista_de_ColoresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87344A842702B75000A4F456 /* App03_Lista_de_ColoresApp.swift */; };
-		87344A872702B75000A4F456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87344A862702B75000A4F456 /* ContentView.swift */; };
+		87344A872702B75000A4F456 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87344A862702B75000A4F456 /* ListView.swift */; };
 		87344A892702B75100A4F456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87344A882702B75100A4F456 /* Assets.xcassets */; };
 		87344A8C2702B75100A4F456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87344A8B2702B75100A4F456 /* Preview Assets.xcassets */; };
+		87EDFA782702B8910084C61D /* ColourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDFA772702B8910084C61D /* ColourView.swift */; };
+		87FB04552702B97B0005D29F /* ColourDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB04542702B97B0005D29F /* ColourDetailView.swift */; };
+		87FB04582702BAAD0005D29F /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB04572702BAAD0005D29F /* CustomNavigationBar.swift */; };
+		87FB045B2702C0030005D29F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FB045A2702C0030005D29F /* Colors.xcassets */; };
+		87FB045E2702C0690005D29F /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB045D2702C0690005D29F /* Colour.swift */; };
+		87FB04612702C0F40005D29F /* ColourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB04602702C0F40005D29F /* ColourModel.swift */; };
+		87FB04692702D4E60005D29F /* PTSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FB04652702D4E60005D29F /* PTSerif-Bold.ttf */; };
+		87FB046A2702D4E60005D29F /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FB04662702D4E60005D29F /* PTSerif-Regular.ttf */; };
+		87FB046B2702D4E60005D29F /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FB04672702D4E60005D29F /* PTSerif-Italic.ttf */; };
+		87FB046C2702D4E60005D29F /* PTSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87FB04682702D4E60005D29F /* PTSerif-BoldItalic.ttf */; };
+		87FB046F2702D4F50005D29F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FB046E2702D4F50005D29F /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87344A812702B75000A4F456 /* App03-Lista de Colores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App03-Lista de Colores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87344A842702B75000A4F456 /* App03_Lista_de_ColoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App03_Lista_de_ColoresApp.swift; sourceTree = "<group>"; };
-		87344A862702B75000A4F456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87344A862702B75000A4F456 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		87344A882702B75100A4F456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87344A8B2702B75100A4F456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87344A8D2702B75100A4F456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EDFA772702B8910084C61D /* ColourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourView.swift; sourceTree = "<group>"; };
+		87FB04542702B97B0005D29F /* ColourDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourDetailView.swift; sourceTree = "<group>"; };
+		87FB04572702BAAD0005D29F /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		87FB045A2702C0030005D29F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		87FB045D2702C0690005D29F /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		87FB04602702C0F40005D29F /* ColourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourModel.swift; sourceTree = "<group>"; };
+		87FB04652702D4E60005D29F /* PTSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Bold.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Bold.ttf"; sourceTree = "<group>"; };
+		87FB04662702D4E60005D29F /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Regular.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Regular.ttf"; sourceTree = "<group>"; };
+		87FB04672702D4E60005D29F /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Italic.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Italic.ttf"; sourceTree = "<group>"; };
+		87FB04682702D4E60005D29F /* PTSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-BoldItalic.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		87FB046E2702D4F50005D29F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +74,18 @@
 		87344A832702B75000A4F456 /* App03-Lista de Colores */ = {
 			isa = PBXGroup;
 			children = (
+				87FB04642702D4CF0005D29F /* Fonts */,
 				87344A842702B75000A4F456 /* App03_Lista_de_ColoresApp.swift */,
-				87344A862702B75000A4F456 /* ContentView.swift */,
+				87344A862702B75000A4F456 /* ListView.swift */,
+				87FB04542702B97B0005D29F /* ColourDetailView.swift */,
+				87FB04572702BAAD0005D29F /* CustomNavigationBar.swift */,
+				87EDFA772702B8910084C61D /* ColourView.swift */,
 				87344A882702B75100A4F456 /* Assets.xcassets */,
 				87344A8D2702B75100A4F456 /* Info.plist */,
 				87344A8A2702B75100A4F456 /* Preview Content */,
+				87FB045A2702C0030005D29F /* Colors.xcassets */,
+				87FB045D2702C0690005D29F /* Colour.swift */,
+				87FB04602702C0F40005D29F /* ColourModel.swift */,
 			);
 			path = "App03-Lista de Colores";
 			sourceTree = "<group>";
@@ -67,6 +96,18 @@
 				87344A8B2702B75100A4F456 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87FB04642702D4CF0005D29F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87FB04652702D4E60005D29F /* PTSerif-Bold.ttf */,
+				87FB04682702D4E60005D29F /* PTSerif-BoldItalic.ttf */,
+				87FB04672702D4E60005D29F /* PTSerif-Italic.ttf */,
+				87FB04662702D4E60005D29F /* PTSerif-Regular.ttf */,
+				87FB046E2702D4F50005D29F /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				87344A8C2702B75100A4F456 /* Preview Assets.xcassets in Resources */,
+				87FB045B2702C0030005D29F /* Colors.xcassets in Resources */,
 				87344A892702B75100A4F456 /* Assets.xcassets in Resources */,
+				87FB04692702D4E60005D29F /* PTSerif-Bold.ttf in Resources */,
+				87FB046B2702D4E60005D29F /* PTSerif-Italic.ttf in Resources */,
+				87FB046C2702D4E60005D29F /* PTSerif-BoldItalic.ttf in Resources */,
+				87FB046A2702D4E60005D29F /* PTSerif-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87344A872702B75000A4F456 /* ContentView.swift in Sources */,
+				87FB046F2702D4F50005D29F /* Fonts.swift in Sources */,
+				87EDFA782702B8910084C61D /* ColourView.swift in Sources */,
+				87344A872702B75000A4F456 /* ListView.swift in Sources */,
 				87344A852702B75000A4F456 /* App03_Lista_de_ColoresApp.swift in Sources */,
+				87FB045E2702C0690005D29F /* Colour.swift in Sources */,
+				87FB04552702B97B0005D29F /* ColourDetailView.swift in Sources */,
+				87FB04582702BAAD0005D29F /* CustomNavigationBar.swift in Sources */,
+				87FB04612702C0F40005D29F /* ColourModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct App03_Lista_de_ColoresApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }
